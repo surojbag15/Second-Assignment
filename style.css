@@ -637,6 +637,9 @@ img {
   .footer-col {
     width: 50%;
   }
+  .footer-col > .call-number {
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 475px) {
   .card-sec .col-3 {
