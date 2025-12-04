@@ -309,7 +309,7 @@ nav,
 /* ========== */
 
 .card-sec {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .card {
@@ -365,7 +365,7 @@ nav,
 
 /* ===========* our services-card ============= */
 .our-services {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .our-services > .container {
@@ -416,7 +416,7 @@ img {
 /* ===========* Best Result ============= */
 
 .best-results {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .title-3 {
@@ -620,7 +620,15 @@ img {
   .home-loan {
     display: none;
   }
-  
+  .footer-col:first-child {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .footer-col {
     width: 50%;
   }
