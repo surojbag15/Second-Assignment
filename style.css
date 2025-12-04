@@ -91,15 +91,16 @@ button {
 
 .nav-btn > .primary-btn {
   padding: 17px 30px;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--text-white);
   border-radius: 4px;
   margin-left: 25px;
+  transition: background-color 0.25s ease;
 }
 
 .nav-btn > .primary-btn:hover {
-  background-color: var(--primary-color);
-  color: var(--text-white);
+  background-color: #d40072;
+  box-shadow: 0 4px 12px rgba(237, 1, 127, 0.4);
 }
 
 .navbar-collapsed,
@@ -243,15 +244,15 @@ nav,
 
 .banner-btn > .primary-btn {
   padding: 13px 22.93px 13px 22.07px;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  /* margin-right: 20px; */
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  transition: background-color 0.25s ease;
   border-radius: 4px;
 }
 
 .banner-btn > .primary-btn:hover {
-  background-color: var(--primary-color);
-  color: var(--text-white);
+  background-color: #d40072;
+  box-shadow: 0 4px 12px rgba(237, 1, 127, 0.4);
 }
 
 .banner-btn > .secondary-btn {
@@ -259,11 +260,14 @@ nav,
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 4px;
+  transition: background-color 0.25s ease;
 }
 
 .banner-btn > .secondary-btn:hover {
   background-color: var(--primary-color);
   color: var(--text-white);
+  background-color: #d40072;
+  box-shadow: 0 4px 12px rgba(237, 1, 127, 0.4);
 }
 
 .call-number {
@@ -529,6 +533,7 @@ img {
 .get-started,
 .about {
   margin: 0 auto 20px;
+  text-align: center;
 }
 
 /* ======================MEDIA SCREEN================= */
