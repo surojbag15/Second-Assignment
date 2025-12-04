@@ -535,6 +535,9 @@ img {
   margin: 0 auto 20px;
   text-align: center;
 }
+.footer-col > .call-number {
+  margin: 0 auto;
+}
 
 /* ======================MEDIA SCREEN================= */
 
